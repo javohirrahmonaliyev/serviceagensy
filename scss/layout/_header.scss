@@ -1,0 +1,61 @@
+.header__container {
+  padding-top: 3.1rem;
+  padding-bottom: 10rem;
+  display: flex;
+}
+.sitenav__list {
+  margin-right: 258px;
+  display: flex;
+  gap: 4rem;
+
+  .nav__link {
+    color: #08082a;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    &:hover {
+      transition: 0.3s;
+      color: #ff5a09;
+      opacity: 0.5;
+    }
+  }
+}
+.site-logo {
+  margin-right: auto;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+.header__btn {
+  padding: 15px 15px;
+  border-radius: 30px;
+  color: #08082a;
+  text-align: right;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  &:hover {
+    color: aliceblue;
+    background-color: #08082a;
+    transition: 0.8s;
+  }
+}
+.header__link {
+  display: flex;
+  gap: 2.8rem;
+  align-items: center;
+}
+.link-box {
+  .box-img {
+    padding: 12px 12px 12px 12px;
+    background: #08082a;
+    border-radius: 10px;
+  }
+}

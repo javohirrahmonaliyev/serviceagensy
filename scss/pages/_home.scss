@@ -1,0 +1,43 @@
+.hero {
+  background-image: url(../../images/png/001-swirly-scribbled-arrow.png);
+  background-repeat: no-repeat;
+  background-position: bottom left 600px;
+}
+.hero__container {
+  padding-bottom: 12rem;
+  display: flex;
+  justify-content: space-between;
+}
+.hero__content {
+  width: 550px;
+}
+.hero-title {
+  margin-bottom: 3.2rem;
+  color: #08082a;
+  font-family: Playfair Display;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120px; /* 120% */
+  .ideas {
+    background: linear-gradient(315deg, #ff5a09 0%, #ff894e 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Playfair Display;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120px;
+  }
+}
+.hero-description {
+  margin-bottom: 5rem;
+  opacity: 0.6;
+  color: #08082a;
+  font-family: Rubik;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 35.2px */
+}
